@@ -1,3 +1,10 @@
+
+<img width="1040" alt="Screenshot 2024-09-12 211142" src="https://github.com/user-attachments/assets/32e63878-c7b7-44b2-88e3-9cc65ba5782a">
+
+<img width="1022" alt="Screenshot 2024-09-12 211100" src="https://github.com/user-attachments/assets/3efab684-e206-4200-81d6-81d971d62ecd">
+
+
+
 # **Probability Matrix Calculator using Variational Free Energy**
 
 ## **Table of Contents**
