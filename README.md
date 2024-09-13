@@ -503,3 +503,57 @@ This guide explains each parameter in the variational inference calculator and p
 6. **Conservative Approach**: When in doubt, it's often better to set a larger prior standard deviation to reflect greater uncertainty.
 
 Remember, the power of Bayesian methods like this calculator is in their ability to update beliefs as new data is incorporated. Even if your initial parameter estimates are off, the model will adjust as more data is added.
+
+
+# How the Calculator Improves with Each New Data Point
+
+The variational inference calculator gets better with each new piece of data through a process called Bayesian updating. Here's a simple explanation of how this works:
+
+## 1. Starting Point
+
+- You begin with your initial guess (prior mean) and how sure you are about it (prior standard deviation).
+- This is like having a rough idea based on what you already know.
+
+## 2. Adding New Data
+
+- Each time you add a new measurement (observation), the calculator does some math magic.
+- It combines your initial guess with this new information.
+
+## 3. Updating the Estimate
+
+- The calculator creates a new, improved estimate (posterior mean).
+- It also updates how sure it is about this new estimate (posterior standard deviation).
+
+## 4. Balancing Act
+
+- If your initial guess was good, and the new data agrees with it, the estimate doesn't change much.
+- If the new data is very different from your guess, the estimate shifts more towards the new data.
+- The more sure you were about your initial guess, the less it changes with new data.
+- The more precise your measurements are, the more they influence the new estimate.
+
+## 5. Getting Better and Better
+
+- Each new piece of data refines the estimate further.
+- Generally, the more data you add:
+  - The closer the estimate gets to the true value.
+  - The more confident (less uncertain) the calculator becomes about its estimate.
+
+## 6. Visualizing the Improvement
+
+- In the graph:
+  - The blue dashed line (prior) shows your initial guess.
+  - The red solid line (posterior) shows the updated estimate.
+  - With each new data point, you'd see the red line:
+    - Move closer to the true value.
+    - Get narrower (showing increased certainty).
+
+## Real-World Example
+
+Imagine guessing the average height of people in a room:
+
+1. You start thinking it's about 5'8" (173 cm), but you're not very sure.
+2. You measure one person: 5'10" (178 cm). The estimate shifts a bit higher.
+3. You measure another: 5'6" (168 cm). The estimate adjusts slightly lower.
+4. After measuring 10 people, your estimate is much more accurate and you're more confident about it.
+
+This process of refining the estimate with each new piece of information is how the calculator "gets better" each time you add data.
