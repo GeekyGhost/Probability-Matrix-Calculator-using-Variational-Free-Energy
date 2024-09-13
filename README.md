@@ -3,7 +3,7 @@
 
 <img width="1022" alt="Screenshot 2024-09-12 211100" src="https://github.com/user-attachments/assets/3efab684-e206-4200-81d6-81d971d62ecd">
 
-#Example
+Example
 
 # Explanation of Variational Inference Calculator Output
 
@@ -45,7 +45,7 @@ This visual representation allows users to quickly grasp how their initial belie
 
 
 
-# **Probability Matrix Calculator using Variational Free Energy**
+# **Probability Matrix Calculator using Variational Free Energy*
 
 ## **Table of Contents**
 
