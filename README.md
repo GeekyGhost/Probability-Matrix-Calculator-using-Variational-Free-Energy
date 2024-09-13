@@ -443,3 +443,63 @@ A: Yes, but be mindful that very large datasets may slow down the computation an
 **Q5: Is the calculator suitable for real-time data analysis?**
 
 A: While the calculator can handle sequential updates, it's not optimized for real-time streaming data. For real-time applications, further development and optimization would be necessary.
+
+
+
+# Guide to Setting Parameters for Variational Inference Calculator
+
+This guide explains each parameter in the variational inference calculator and provides advice on how to set appropriate values.
+
+## 1. Prior Mean (μ₀)
+
+**What it represents**: Your initial estimate of the variable of interest before observing any data.
+
+**How to set it**:
+- Use domain knowledge or historical data if available.
+- If you have no prior information, you might use 0 or the mean of a reasonable range of possible values.
+- Example: If estimating average height, you might use the known average height for the population (e.g., 170 cm for adults globally).
+
+## 2. Prior Standard Deviation (σ₀)
+
+**What it represents**: The uncertainty in your prior estimate.
+
+**How to set it**:
+- Should be positive and reflect your confidence in the prior mean.
+- A larger value indicates more uncertainty.
+- If you're very uncertain, set it to a value that covers the range of plausible values.
+- Example: For height, if you think the true average is likely within ±20 cm of your guess, you might set σ₀ to 10 (as about 95% of a normal distribution falls within 2 standard deviations).
+
+## 3. Observations (y)
+
+**What it represents**: The actual data points you've observed.
+
+**How to set it**:
+- Enter the raw data values you've collected.
+- Can be a single value or multiple values separated by commas.
+- Example: If you've measured the heights of 3 people: "175, 168, 182"
+
+## 4. Observation Noise Standard Deviation (σ)
+
+**What it represents**: The uncertainty in your measurements or observations.
+
+**How to set it**:
+- Should reflect the precision of your measurement process.
+- A smaller value indicates more precise measurements.
+- Consider factors like instrument accuracy, human error, or natural variation in the process you're measuring.
+- Example: If your height measurements are precise to about ±1 cm, you might set σ to 0.5 (assuming errors are normally distributed).
+
+## General Tips for Setting Parameters:
+
+1. **Consistency**: Ensure all parameters use the same units of measurement.
+
+2. **Refinement**: Start with your best estimates and refine as you gain more experience or data.
+
+3. **Sensitivity Analysis**: Try different values to see how sensitive your results are to your parameter choices.
+
+4. **Domain Expertise**: Consult with experts in the field when possible to inform your parameter choices.
+
+5. **Data-Driven Priors**: If you have historical data, you can use its statistics to inform your prior parameters.
+
+6. **Conservative Approach**: When in doubt, it's often better to set a larger prior standard deviation to reflect greater uncertainty.
+
+Remember, the power of Bayesian methods like this calculator is in their ability to update beliefs as new data is incorporated. Even if your initial parameter estimates are off, the model will adjust as more data is added.
