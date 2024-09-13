@@ -3,9 +3,9 @@
 
 <img width="1022" alt="Screenshot 2024-09-12 211100" src="https://github.com/user-attachments/assets/3efab684-e206-4200-81d6-81d971d62ecd">
 
-##Example
+#Example
 
-"# Explanation of Variational Inference Calculator Output
+# Explanation of Variational Inference Calculator Output
 
 The output of this variational inference calculator consists of two main parts: a textual result and a graphical plot. Let's break down each component:
 
