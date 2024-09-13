@@ -1,50 +1,6 @@
 Don't mind the name, this is a semi repurposed project of mine based on something I was working on. 
 
-
-<img width="1040" alt="Screenshot 2024-09-12 211142" src="https://github.com/user-attachments/assets/32e63878-c7b7-44b2-88e3-9cc65ba5782a">
-
-<img width="1022" alt="Screenshot 2024-09-12 211100" src="https://github.com/user-attachments/assets/3efab684-e206-4200-81d6-81d971d62ecd">
-
-Example
-
-# Explanation of Variational Inference Calculator Output
-
-The output of this variational inference calculator consists of two main parts: a textual result and a graphical plot. Let's break down each component:
-
-## Textual Output
-
-The text output provides the following information:
-
-1. **Observations**: A list of the data points (y values) that were input into the model.
-
-2. **Approximate Posterior Parameters**:
-   - **Posterior Mean (μₚ)**: This is the updated estimate of the variable of interest after considering the prior knowledge and the observed data. It represents the most likely value of the parameter given the prior and the data.
-   - **Posterior Standard Deviation (σₚ)**: This represents the uncertainty in the posterior estimate. A smaller value indicates higher confidence in the estimate.
-
-## Graphical Output
-
-The graph visualizes the prior and posterior distributions:
-
-1. **Blue Dashed Line**: This represents the prior distribution, which is the initial belief about the parameter before observing any data.
-
-2. **Red Solid Line**: This shows the posterior distribution, which is the updated belief about the parameter after incorporating the observed data.
-
-3. **Red Vertical Dotted Line**: This line indicates the posterior mean (μₚ).
-
-4. **Red Shaded Area**: This area under the posterior distribution curve represents the uncertainty in the estimate. The width of this area corresponds to the posterior standard deviation.
-
-5. **X-axis**: Represents the possible values of the parameter of interest.
-
-6. **Y-axis**: Represents the probability density.
-
-## Interpretation
-
-- The shift from the prior (blue) to the posterior (red) distribution shows how the observed data has updated our beliefs about the parameter.
-- A narrower posterior distribution compared to the prior indicates that the data has reduced uncertainty about the parameter.
-- The peak of the posterior distribution (where the red vertical line is) shows the most likely value of the parameter given the prior and the observed data.
-
-This visual representation allows users to quickly grasp how their initial beliefs (prior) have been updated by the observed data to form a new understanding (posterior) of the parameter of interest."
-
+<img width="808" alt="Screenshot 2024-09-12 220824" src="https://github.com/user-attachments/assets/61e8a411-9731-4bf4-9392-77c3b4f567b3">
 
 
 # **Probability Matrix Calculator using Variational Free Energy*
